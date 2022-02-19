@@ -10,16 +10,56 @@
 		text-align: center;
 		background-color: green;
 	}
+	section1 li{
+		list-style: none;
+	}
+	a:link,a:visited{
+		text-decoration: none;
+		background-color: pink;
+		border: 3px solid blue;
+		color: black;
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 2px;
+
+	}
+	a:hover,a:active{
+		background-color: brown;
+		color: white;
+		font-size: 24px;
+	}
+	#new
+	{
+		width: 200px;
+		height: 250px;
+		background-color:maroon;
+		
+	}
+	#p1{
+		position: absolute;
+		width: 65px;
+		height: 65px;
+		background-color: orange;
+		border: 1px solid black;
+	}
+	#p2{
+		width: 125px;
+		height: 125px;
+		background-color: grey;
+		border: 1px solid black;
+		float:top;
+	}
 </style>
 </head>
 <body>
 	<h1 id="top"> Links to sections of same page</h1>
-	<section>
+	<section1>
 		<ul>
 			<li><a href="#unordered list">#Unordered list</a></li>
 			<li><a href="#ordered list">#Ordered List</a></li>
 		</ul>
-	</section>
+	</section1>
 	<section id="unordered list">
 	<h2> Unordered list</h2>
    <div>
@@ -120,6 +160,14 @@
 </ol>
 </div>
 </section>
+<section id="new">
+		let's go for floating elements!!
+		<p id="p1"> 
+		</p>
+		<p id="p2"></p>
+
+	</section>
+	
 <p>
 	<a href="#top">Back to Page Heading</a>
 </p>
