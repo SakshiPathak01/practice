@@ -1,0 +1,127 @@
+*{
+	box-sizing: border-box;
+}
+h1{
+	margin-bottom: 15px;
+	font-family: fantasy;
+	font-weight: bold;
+	text-align: center;
+}
+#Block1{
+	border: 1px solid black;
+	background-color: darkolivegreen;
+	width: 90%;
+	height: 200px;
+	margin-right: auto;
+	margin-left:auto;
+	margin-bottom: auto;
+	font-family: cursive;
+	color: whitesmoke;
+	padding: 25px;
+	
+}
+#Head1{
+	background-color: lightyellow;
+	color: black;
+	border: 2px solid black;
+	height: auto;
+	width: auto;
+    float: right;
+    position: relative;
+}
+#Block2{
+	border: 1px solid black;
+	background-color: darkolivegreen;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	font-family: cursive;
+	color: whitesmoke;
+	padding: 25px;
+	
+}
+#Head2{
+	background-color: lightyellow;
+	color: black;
+	border: 2px solid black;
+	width: auto;
+	height: auto;
+    float: right;
+    position: relative;
+}
+#Block3{
+	border: 1px solid black;
+	background-color: darkolivegreen;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	font-family: cursive;
+	color: whitesmoke;
+	padding: 25px;
+	
+}
+#Head3{
+	background-color: lightyellow;
+	color: black;
+	border: 2px solid black;
+	width: auto;
+	height: auto;
+    float: right;
+    position: relative;
+}
+
+.row{
+	width: 100%;
+}
+@media(min-width: 992px){
+	#Block1, #Block2, #Block3 {
+		float: left;
+		margin: 2px;
+	}
+	#Block1{
+		width: 32%;
+	}
+	#Block2{
+		width: 32%;
+	}
+	#Block3{
+		width: 32%;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px)
+{ 
+	#Block1, #Block2, #Block3 
+	{
+		float: left;
+		margin: 2px;
+	}
+	#Block1 {
+		width: 48%;
+	}
+	#Block2{
+		width: 48%;
+	}
+	#Block3 {
+		width: 96%;
+	}
+}
+@media (max-width: 767px) 
+{ 
+	#Block1, #Block2, #Block3 
+	{
+		float: left;
+		margin: 2px;
+	}
+	#Block1 {
+		width: 100%;
+	}
+	#Block2{
+		width: 100%;
+	}
+	#Block3 {
+		width: 100%;
+	}
+}
